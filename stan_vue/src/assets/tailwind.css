@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+@tailwind base;
+
+@tailwind components;
+@font-face {
+  font-family: "Apex Mk3 ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Apex Mk3 ExtraLight"),
+    url("./fonts/Apex\ Mk3-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Apex Mk3 Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Apex Mk3 Medium"),
+    url("./fonts/Apex\ Mk3-Medium.woff") format("woff");
+}
+@tailwind utilities;
